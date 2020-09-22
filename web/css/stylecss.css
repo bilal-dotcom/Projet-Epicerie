@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 mai 2020, 09:44:17
+    Author     : fikar
+*/
+
+input{background-color: orange;
+    height: 100px;
+    width:100px;
+    }
+
+/*    #cate1{
+         background-image: url("../img/cat1.png");
+         height: 100px;
+         width: 100px;
+    }
+ 
+     #cate2{
+         background-image: url("../img/cat2.png");
+         height: 100px;  width: 100px;
+    }
+     #cate3{
+         background-image: url("../img/cat3.png");
+         height: 100px;  width: 100px;
+    }
+     #cate4{
+         background-image: url("../img/cat4.png");
+         height: 100px;  width: 100px;
+    }*/
+    
+    
+    .inputecat{
+        width: 100px;
+        height: 40px;
+    }
+    table{
+  border-collapse: collapse;
+ 
+}
+
+td{
+  border: 1px solid black;
+  padding: 10px;
+}
+tr{
+    height: 10px;
+}
+.proimage{height:80px;
+            width: 70px;}
+
+

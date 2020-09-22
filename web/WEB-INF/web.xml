@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+       <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file> 
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>ProduitServ</servlet-name>
+        <servlet-class>ProduitServ</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CatServlet</servlet-name>
+        <servlet-class>CatServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PanServelet</servlet-name>
+        <servlet-class>PanServelet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AllCat</servlet-name>
+        <servlet-class>AllCat</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProduitServ</servlet-name>
+        <url-pattern>/getProd</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CatServlet</servlet-name>
+        <url-pattern>/catserv</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PanServelet</servlet-name>
+        <url-pattern>/pan</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AllCat</servlet-name>
+        <url-pattern>/allcat</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
